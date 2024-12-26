@@ -188,25 +188,26 @@ span#solid-star {
     height: auto;
 }
 
-.hero-section {
+.hero-col-sec2 {
     background: url(../images/disposable_furniture.png);
     background-repeat: no-repeat;
     background-position: 100% 0;
     background-size: 657px 800px;
-
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 14% 100%);
+    width: 45%;
 }
 
 
-
-.order-now-sec {
+.hero-section {
     position: relative;
 }
 
-.order-now-sec img {
+.order-now-sec {
+    position: absolute;
     width: 200px;
     height: 200px;
-    position: absolute;
-    top: 300px;
+    right: 517px;
+    top: 253px;
 }
 
 .list-sec img {
@@ -1044,4 +1045,14 @@ ul.nav.navbar-nav {
 .client-img {
     margin: 0 !important;
     width: 60px !important;
+}
+
+.hero-col-sec1 {
+    width: 50%;
+    margin-left: 9%;
+}
+
+.hero-row-sec {
+    display: inline-flex;
+    width: 100%;
 }
